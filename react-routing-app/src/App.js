@@ -1,7 +1,7 @@
-import './App.css';
 import Login from './Login';
+import './App.css';
 // import Registration from './Registration';
-import './Registration.css';
+
 
 function App() {
   return (

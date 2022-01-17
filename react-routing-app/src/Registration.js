@@ -1,3 +1,5 @@
+import './Registration.css';
+
 function Registration(){
     return(
         <div className="registration">
