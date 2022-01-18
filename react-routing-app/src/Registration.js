@@ -21,7 +21,8 @@ function Registration(){
                     <br/>
                     <br/>
                    
-                    <button className="btn">Register</button>    
+                    <button className="btn">Register</button>   
+                    <p className='details'>Already have an account? Log in</p> 
                 </div>    
                 
             </div> 
