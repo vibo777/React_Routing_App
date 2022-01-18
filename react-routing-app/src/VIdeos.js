@@ -9,7 +9,21 @@ function Videos()
             </div>
             <div className="container">
                 <div className="slider">
-
+                    <div className="ele">
+                    
+                    </div>
+                    <div className="ele">
+                    
+                    </div>
+                    <div className="ele">
+                    
+                    </div>
+                    <div className="ele">
+                    
+                    </div>
+                    <div className="ele">
+                    
+                    </div>
                 </div>
             </div>
             <div className="main-list">

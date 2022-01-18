@@ -19,14 +19,49 @@ body{
 }
 .slider{
     height: 400px;
-    width: 80%;
-    background-image: url('https://wallpapersqueen.com/wp-content/uploads/2021/08/Money-Heist-Season-5-Pictures-1024x576.jpg');
+    width: 320%;
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: white; */
     border-radius: 15px;
+    display: flex;
+    
+    animation-name: slider;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 5s;
     
 }
+
+.ele{
+    height: 400px;
+    width: 80%;
+    background-color: green;
+    font-size: 100px;
+}
+
+.ele:nth-child(1){
+    background-image: url('https://wallpapersqueen.com/wp-content/uploads/2021/08/Money-Heist-Season-5-Pictures-1024x576.jpg');
+}
+
+.ele:nth-child(2){
+    background-image: url('https://getwalls.io/media/large/2021/09/money-heist-large-941298545.jpg');
+}
+
+.ele:nth-child(3){
+    background-image: url('https://www.baltana.com/files/wallpapers-21/Money-Heist-HD-Background-Wallpaper-53021.png');
+}
+
+.ele:nth-child(4){
+    background-image: url('https://www.baltana.com/files/wallpapers-21/TV-Series-Money-Heist-Widescreen-Wallpapers-53057.jpg');
+}
+
+.ele:nth-child(5){
+    background-image: url('https://wallpapersqueen.com/wp-content/uploads/2021/08/Money-Heist-Season-5-Pictures-1024x576.jpg');
+}
+
+
 .main-list{ 
     height: 200px;
     width: 100%;
@@ -41,9 +76,48 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
 .section{
     height: 100%;
     width: 30%;
     background-color: white;
     /* border-radius: 15px; */
+}
+
+
+
+
+@keyframes slider{
+
+    12.5%{
+        margin-left: -80%;
+    }
+
+    25%{
+        margin-left: -80%;
+    }
+
+    37.5%{
+        margin-left:-160% ;
+    }
+
+    50%{
+        margin-left:-160% ;
+    }
+
+    62.5%{
+        margin-left: -240%;
+    }
+
+    75%{
+        margin-left: -240%;
+    }
+
+    87.5%{
+        margin-left: -320%;
+    }
+
+    100%{
+        margin-left: -320%;
+    }
 }
