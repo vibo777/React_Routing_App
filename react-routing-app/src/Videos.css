@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-body{
-    font-family: 'Poppins', sans-serif;
-}
+
 *{
     margin:0;
     background-color:#6950FB;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ /* header section  */
 .header{
     height: 60px;
     width: 100%;
     background-color:#262628; 
 }
+
+ /* banner section  */
 .container{
     display: flex;
     justify-content: center;
@@ -19,28 +23,29 @@ body{
 }
 .slider{
     height: 400px;
-    width: 320%;
+    width: 80%;
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: white; */
+    background-image: url('https://wallpapersqueen.com/wp-content/uploads/2021/08/Money-Heist-Season-5-Pictures-1024x576.jpg');
     border-radius: 15px;
     display: flex;
-    
-    animation-name: slider;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    /* animation-name: slider;
     animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-play-state: running;
-    animation-delay: 5s;
+    animation-delay: 5s; */
     
 }
 
-.ele{
+/* .ele{
     height: 400px;
     width: 80%;
     background-color: green;
     font-size: 100px;
-}
-
+} */
+/* 
 .ele:nth-child(1){
     background-image: url('https://wallpapersqueen.com/wp-content/uploads/2021/08/Money-Heist-Season-5-Pictures-1024x576.jpg');
 }
@@ -59,9 +64,11 @@ body{
 
 .ele:nth-child(5){
     background-image: url('https://wallpapersqueen.com/wp-content/uploads/2021/08/Money-Heist-Season-5-Pictures-1024x576.jpg');
-}
+} */
 
+ 
 
+/* video list section  */
 .main-list{ 
     height: 200px;
     width: 100%;
@@ -80,13 +87,25 @@ body{
 .section{
     height: 100%;
     width: 30%;
-    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    /* background-color: white; */
     /* border-radius: 15px; */
 }
 
+.poster1{
+    background-image: url('https://wallpaperaccess.com/full/3577710.jpg');
+    background-size: cover; 
+}
+.poster2{
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/pv-target-images/f447f7b124e6c785d64c0772f46841159b8f58ab9fdf3a6489bd7fbdf2c37a51._UY500_UX667_RI_V_TTW_.jpg');
+    background-size: cover; 
+}
+.poster3{
+    background-image: url('https://indiacurrents.com/wp-content/uploads/2021/04/Scam1992_Landscape_Thumb_Review.jpg');
+    background-size: cover; 
+}
 
-
-
+/* 
 @keyframes slider{
 
     12.5%{
@@ -120,4 +139,21 @@ body{
     100%{
         margin-left: -320%;
     }
+} */
+
+
+/* recommanded-videos*/
+.recommanded-videos{
+    height: 200px;
+    width: 100%;
+    /* background-color: ; */
+}
+
+
+/* Footer section  */
+
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color:#262628;
 }

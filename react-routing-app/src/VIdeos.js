@@ -10,7 +10,7 @@ function Videos()
             <div className="container">
                 <div className="slider">
                     <div className="ele">
-                    
+                            
                     </div>
                     <div className="ele">
                     
@@ -27,18 +27,31 @@ function Videos()
                 </div>
             </div>
             <div className="main-list">
+             
                 <div className="list">
-                    <div className="section">
+                    
+                    <div className="section poster1">
 
                     </div>
-                    <div className="section">
+                    <div className="section poster2">
 
                     </div>
-                    <div className="section">
+                    <div className="section poster3">
 
                     </div>    
+
                 </div>    
             </div>
+
+            <div className="recommanded-videos">
+
+            </div>            
+
+            <div className="footer">
+                
+            </div>
+
+
         </div>
     )
 
