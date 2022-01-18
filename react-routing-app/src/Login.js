@@ -1,4 +1,5 @@
 import './Login.css';
+import {Link} from 'react-router-dom';
 
 function Login(){
     return(
@@ -19,7 +20,7 @@ function Login(){
                 </div>    
                 <div className="registration-link">
                     <p className="details">Don't have an account yet?</p>
-                    <a href="https://www.google.com/" className="link">Create an account</a>
+                    <p className="link"><Link to="/register">Create an account</Link></p>
                 </div>
             </div> 
         </div>
