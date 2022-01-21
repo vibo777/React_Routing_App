@@ -42,6 +42,7 @@ body{
     height: 30px;
     width:80%;
     border-radius: 5px;
+    outline: none;
 }
 .btn{
     color: white;

@@ -1,13 +1,13 @@
-// import Login from './Login';
+ import Login from './Login';
 import './App.css';
-// import Registration from './Registration';
-// import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import Videos from './VIdeos';
+import Registration from './Registration';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+// import Videos from './Videos';
 
 function App() {
   return (
     <div className="App">
-         {/* <BrowserRouter>
+         <BrowserRouter>
           
           <Routes>
             
@@ -16,8 +16,8 @@ function App() {
           
           </Routes>
         
-        </BrowserRouter> */}
-      <Videos/>
+        </BrowserRouter>
+      {/* <Videos/> */}
 
     </div>
   );
